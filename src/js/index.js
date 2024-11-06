@@ -30,7 +30,6 @@ const generateRandomPassword = () => {
   if (length === 0) {
     password.value = "";
     copyText.classList.add("hidden");
-    gaugePasswordStrength("");
     return;
   }
 
